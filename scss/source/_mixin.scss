@@ -1,0 +1,19 @@
+@mixin flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+@mixin button {
+    cursor: pointer;
+    background-color: $bg-color;
+    padding: 15px 19px 15px 19px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@mixin button-hover {
+    background: $main-color;
+    color: $bg-color;
+}
